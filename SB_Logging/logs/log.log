@@ -1,0 +1,52 @@
+03-16-2023 19:18:56.271 [http-nio-8080-exec-2] TRACE c.s.learning.service.LoggerService.serviceLoggers - Service level TRACE
+03-16-2023 19:18:56.272 [http-nio-8080-exec-2] DEBUG c.s.learning.service.LoggerService.serviceLoggers - Service level DEBUG
+03-16-2023 19:18:56.273 [http-nio-8080-exec-2] ERROR c.s.learning.service.LoggerService.serviceLoggers - Service level ERROR
+03-16-2023 19:19:06.379 [http-nio-8080-exec-3] TRACE c.s.learning.service.LoggerService.serviceLoggers - Service level TRACE
+03-16-2023 19:19:06.379 [http-nio-8080-exec-3] DEBUG c.s.learning.service.LoggerService.serviceLoggers - Service level DEBUG
+03-16-2023 19:19:06.380 [http-nio-8080-exec-3] ERROR c.s.learning.service.LoggerService.serviceLoggers - Service level ERROR
+03-16-2023 19:25:01.827 [restartedMain] INFO  c.s.learning.SbLoggingApplication.logStarting - Starting SbLoggingApplication using Java 1.8.0_291 on LAPTOP-QRMFEKSG with PID 32016 (S:\sk_workspace\SB_Logging\target\classes started by VedAryan in S:\sk_workspace\SB_Logging)
+03-16-2023 19:25:01.830 [restartedMain] INFO  c.s.learning.SbLoggingApplication.logStartupProfileInfo - The following 1 profile is active: "dev"
+03-16-2023 19:25:01.943 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+03-16-2023 19:25:01.944 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+03-16-2023 19:25:04.920 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+03-16-2023 19:25:04.945 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+03-16-2023 19:25:04.946 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-16-2023 19:25:04.947 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-16-2023 19:25:05.382 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-16-2023 19:25:05.383 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3437 ms
+03-16-2023 19:25:06.162 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+03-16-2023 19:25:06.185 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+03-16-2023 19:25:06.222 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+03-16-2023 19:25:06.243 [restartedMain] INFO  c.s.learning.SbLoggingApplication.logStarted - Started SbLoggingApplication in 5.425 seconds (JVM running for 6.109)
+03-16-2023 19:25:18.780 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-16-2023 19:25:18.781 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+03-16-2023 19:25:18.781 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 0 ms
+03-16-2023 19:25:18.801 [http-nio-8080-exec-3] INFO  c.s.l.c.Slf4jLoggerController.getLoggers - This is INFO from Slf4j
+03-16-2023 19:25:18.801 [http-nio-8080-exec-3] WARN  c.s.l.c.Slf4jLoggerController.getLoggers - This is WARN from Slf4j
+03-16-2023 19:25:18.802 [http-nio-8080-exec-3] ERROR c.s.l.c.Slf4jLoggerController.getLoggers - This is ERROR from Slf4j
+03-16-2023 19:25:18.802 [http-nio-8080-exec-3] DEBUG c.s.learning.service.LoggerService.serviceLoggers - Service level DEBUG
+03-16-2023 19:25:18.802 [http-nio-8080-exec-3] ERROR c.s.learning.service.LoggerService.serviceLoggers - Service level ERROR
+03-16-2023 19:27:04.579 [restartedMain] INFO  c.s.learning.SbLoggingApplication.logStarting - Starting SbLoggingApplication using Java 1.8.0_291 on LAPTOP-QRMFEKSG with PID 13440 (S:\sk_workspace\SB_Logging\target\classes started by VedAryan in S:\sk_workspace\SB_Logging)
+03-16-2023 19:27:04.581 [restartedMain] INFO  c.s.learning.SbLoggingApplication.logStartupProfileInfo - The following 1 profile is active: "dev"
+03-16-2023 19:27:04.644 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+03-16-2023 19:27:04.645 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+03-16-2023 19:27:06.838 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+03-16-2023 19:27:06.857 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+03-16-2023 19:27:06.858 [restartedMain] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+03-16-2023 19:27:06.858 [restartedMain] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.64]
+03-16-2023 19:27:07.279 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+03-16-2023 19:27:07.280 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2635 ms
+03-16-2023 19:27:07.847 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+03-16-2023 19:27:07.876 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+03-16-2023 19:27:07.903 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+03-16-2023 19:27:07.918 [restartedMain] INFO  c.s.learning.SbLoggingApplication.logStarted - Started SbLoggingApplication in 3.943 seconds (JVM running for 4.558)
+03-16-2023 19:27:19.788 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+03-16-2023 19:27:19.788 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+03-16-2023 19:27:19.789 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+03-16-2023 19:27:19.809 [http-nio-8080-exec-1] INFO  c.s.l.c.Slf4jLoggerController.getLoggers - This is INFO from Slf4j
+03-16-2023 19:27:19.810 [http-nio-8080-exec-1] WARN  c.s.l.c.Slf4jLoggerController.getLoggers - This is WARN from Slf4j
+03-16-2023 19:27:19.811 [http-nio-8080-exec-1] ERROR c.s.l.c.Slf4jLoggerController.getLoggers - This is ERROR from Slf4j
+03-16-2023 19:27:19.811 [http-nio-8080-exec-1] ERROR c.s.learning.service.LoggerService.serviceLoggers - Service level ERROR
+03-16-2023 19:28:06.604 [http-nio-8080-exec-2] TRACE c.s.learning.service.LoggerService.serviceLoggers - Service level TRACE
+03-16-2023 19:28:06.605 [http-nio-8080-exec-2] DEBUG c.s.learning.service.LoggerService.serviceLoggers - Service level DEBUG
+03-16-2023 19:28:06.605 [http-nio-8080-exec-2] ERROR c.s.learning.service.LoggerService.serviceLoggers - Service level ERROR
